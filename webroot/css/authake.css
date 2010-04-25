@@ -1,0 +1,371 @@
+
+
+
+/* Reset... */
+
+div#authake * {
+    margin:0;
+    padding:0;
+    border: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    text-decoration: none; 
+}
+
+div#authake {
+    padding-top: 0.5em;
+}
+
+div#authake .view {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Text styles */
+
+div#authake h1, div#authake h2, div#authake h3, div#authake h4, div#authake legend {
+    color: #069;
+    font-weight: bold;
+    font-family:'Gill Sans','lucida grande',helvetica,arial,sans-serif;
+}
+
+div#authake h2, div#authake legend {
+    font-size: 2.2em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-top: 0em;
+    margin-bottom: 0.4em;
+}
+
+div#authake legend {
+    margin-bottom: 12px;     /* margin equal to ul padding-top */
+}
+
+div#authake h3 {
+    padding-top:1.5em;
+    font-size:165%;
+}
+
+div#authake h4 {
+    margin-bottom: 0.3em;
+}
+
+div#authake em {
+    font-style: italic;
+}
+
+
+
+/* Forms */
+
+div#authake form {
+    clear: none;
+    margin: 0 0 1.5em 0;
+}
+
+div#authake fieldset {
+    margin-top: 0;
+    padding: 0;
+}
+
+div#authake label {
+    float: left;
+    width: 15em;
+    margin: 0.7em 1em 0.7em 0;
+    font-weight: bold;
+    text-align: right;
+}
+
+div#authake input, div#authake select, div#authake textarea {
+    display: inline;
+    width: auto;
+    margin: 0.7em auto;
+    padding: 0;
+    border: 1px solid #ccc;
+}
+
+
+
+div#authake input, div#authake textarea {
+    padding: 0 0.3em;
+}
+
+div#authake select, div#authake textarea {
+    padding-right: 0;
+}
+
+div#authake option {
+    margin: 0.2em auto;
+}
+
+div#authake textarea:focus, div#authake input:focus {
+    border: 1px solid #999;
+    background-color: #ffc;
+}
+
+div#authake div.submit input {
+    margin-left: 16em;
+    padding: 0em 1em;
+    width: auto;
+    font-weight: bold;
+    border: 2px solid #ddd;
+    background-color: #f9f9f9;
+    
+    -moz-border-radius-topright: 0.7em;
+    -moz-border-radius-bottomleft: 0.5em;
+}
+
+div#authake form div.required input {
+    font-weight: normal;
+}
+
+div#authake input[type="hidden"] {
+    display: none;
+}
+
+div#authake input[type="checkbox"] {
+    float: none;
+}
+
+/* Actions buttons */
+
+div#authake div.actions>ul>li {
+    border: 2px solid #ddd;
+    background-color: #f9f9f9;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    margin: auto 0.3em;
+    
+    -moz-border-radius-topright: 0.7em;
+    -moz-border-radius-bottomleft: 0.5em;
+}
+div#authake div.actions a {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+div#authake div.actions>ul>li:hover {
+    background-color: #ddd;
+}
+div#authake div.actions>ul>li>a:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+
+/* icons */
+div#authake li.icon {
+    list-style-type: none;
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    padding-left: 28px
+}
+
+div#authake li.info {
+    background-image: url(../img/icons/information.png);
+}
+
+div#authake li.user {
+    background-image: url(../img/icons/user.png);
+}
+
+div#authake li.user_add {
+    background-image: url(../img/icons/user_add.png);
+}
+
+div#authake li.user_edit {
+    background-image: url(../img/icons/user_edit.png);
+}
+
+div#authake li.user_delete {
+    background-image: url(../img/icons/user_delete.png);
+}
+
+div#authake li.group {
+    background-image: url(../img/icons/group.png);
+}
+
+div#authake li.group_add {
+    background-image: url(../img/icons/group_add.png);
+}
+
+div#authake li.group_edit {
+    background-image: url(../img/icons/group_edit.png);
+}
+
+div#authake li.group_delete {
+    background-image: url(../img/icons/group_delete.png);
+}
+
+div#authake li.key {
+    background-image: url(../img/icons/key.png);
+}
+
+div#authake li.lock {
+    background-image: url(../img/icons/lock.png);
+}
+
+div#authake li.lock_add {
+    background-image: url(../img/icons/lock_add.png);
+}
+
+div#authake li.lock_edit {
+    background-image: url(../img/icons/lock_edit.png);
+}
+
+div#authake li.lock_delete {
+    background-image: url(../img/icons/lock_delete.png);
+}
+
+div#authake li.information {
+    background-image: url(../img/icons/information.png);
+}
+
+div#authake li.house {
+    background-image: url(../img/icons/house.png);
+}
+
+div#authake li.cross {
+    background-image: url(../img/icons/cross.png);
+}
+
+div#authake li.add {
+    background-image: url(../img/icons/add.png);
+}
+
+div#authake li.accept {
+    background-image: url(../img/icons/accept.png);
+}
+
+div#authake li.delete {
+    background-image: url(../img/icons/delete.png);
+}
+
+div#authake li.door_in {
+    background-image: url(../img/icons/door_in.png);
+}
+
+div#authake li.error {
+    background-image: url(../img/icons/error.png);
+}
+
+/*
+div#authake li. {
+    background-image: url(../img/icons/);
+}
+*/
+
+
+
+/* Tables listing */
+div#authake table.listing {
+    background-color: #fff;
+    border: none;
+    clear: both;
+    color: #333;
+    margin: 1em 0 2em 12px;
+    width: 100%;
+    text-align: left;
+}
+div#authake table.listing th {
+    background: #f9f9f9;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    padding: 0.2em;
+    font-weight: bold;
+}
+div#authake table.listing th a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;    
+}
+div#authake table.listing th a:hover {
+    background-color: inherit;
+}
+div#authake table.listing th:hover {
+    background-color: #eee;
+    color: #333;
+    text-decoration: none;
+}
+div#authake table.listing tr td {
+    background: #f9f9f9;
+    padding: 0.2em 0.6em;
+    text-align: left;
+    vertical-align: top;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+div#authake table.listing tr.altrow td {
+    background: #fff;
+}
+div#authake table.listing td.actions, div#authake table.listing th.actions {
+    text-align: right; 
+    white-space: nowrap;
+}
+div#authake table.listing td.actions a {
+    display: inline;
+/*     margin: 0; */
+}
+div#authake table.listing tr td a {
+    text-decoration: none;
+     font-weight: normal; 
+}
+div#authake table.listing tr:hover td {
+    background-color: #f6f6f6;
+}
+
+div#authake table.listing tr.altrow:hover td {
+    background-color: #fcfcfc;
+}
+
+div#authake table.tableminwidth {
+    width: auto;
+}
+
+div#authake table.listing tr.disabled td, div#authake table.listing tr.disabled td a {
+    color: #999;
+}
+
+
+
+/* Paging */
+div#authake p.paging_count {
+    text-align: right;
+    font-size: 95%;
+    font-style: italic;
+    color: #999;
+}
+
+div#authake div.paging {
+    float: right;
+}
+
+
+/* DL/DT/DD lists */
+
+div#authake dl {
+    margin: 12px 0 2em 0;
+    width: auto;
+}
+div#authake dt {
+    font-weight: bold;
+    vertical-align: top;
+    text-align: right;
+    margin: 0 0 0.7em 0;
+    width: 15em;
+}
+div#authake dd {
+    margin: -2.7em 0 0.7em 17em;
+    vertical-align: top;
+}
+
+
+/* Small menu in header */
+div#authake div.menuheader {
+    float: right;
+    margin: 0;
+}

@@ -1,0 +1,609 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  Revision: 6296 /app/views/layouts/default.ctp
+#  Revision: 6311 /app/webroot/test.php
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Authake\n"
+"POT-Creation-Date: 2008-02-07 18:05+0100\n"
+"PO-Revision-Date: 2008-02-07 18:41+0100\n"
+"Last-Translator: JakeCake <jakecake@velay.greta.fr>\n"
+"Language-Team: JakeCake <JakeCake@velay.greta.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: /home/jej/public_html/tests/cakebeta/app/\n"
+
+#: /app_controller.php:60
+msgid "Access denied to "
+msgstr ""
+
+#: /app_controller.php:68
+msgid "You have to log in to access "
+msgstr ""
+
+#: /plugins/authake/authake_app_controller.php:22
+msgid "Admin page"
+msgstr "Page d'administration"
+
+#: /plugins/authake/controllers/groups_controller.php:24
+msgid "Invalid group."
+msgstr ""
+
+#: /plugins/authake/controllers/groups_controller.php:40;57
+msgid "The group has been saved"
+msgstr ""
+
+#: /plugins/authake/controllers/groups_controller.php:43
+msgid "The group could not be saved. Please, try again"
+msgstr ""
+
+#: /plugins/authake/controllers/groups_controller.php:52
+msgid "Invalid group"
+msgstr ""
+
+#: /plugins/authake/controllers/groups_controller.php:60
+msgid "The group could not be saved. Please, try again."
+msgstr ""
+
+#: /plugins/authake/controllers/groups_controller.php:80
+msgid "Impossible to delete this group"
+msgstr ""
+
+#: /plugins/authake/controllers/groups_controller.php:84
+msgid "Group deleted"
+msgstr ""
+
+#: /plugins/authake/controllers/rules_controller.php:17
+msgid "Invalid Rule."
+msgstr ""
+
+#: /plugins/authake/controllers/rules_controller.php:28;55
+msgid "The Rule has been saved"
+msgstr ""
+
+#: /plugins/authake/controllers/rules_controller.php:31;58
+msgid "The Rule could not be saved. Please, try again."
+msgstr ""
+
+#: /plugins/authake/controllers/rules_controller.php:45
+msgid "Invalid Rule"
+msgstr ""
+
+#: /plugins/authake/controllers/rules_controller.php:49
+msgid "Impossible to edit this rule!"
+msgstr ""
+
+#: /plugins/authake/controllers/rules_controller.php:76
+msgid "Invalid id for Rule"
+msgstr ""
+
+#: /plugins/authake/controllers/rules_controller.php:79
+msgid "Impossible to delete this rule!"
+msgstr ""
+
+#: /plugins/authake/controllers/rules_controller.php:82
+msgid "Rule deleted"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:33
+msgid "Invalid User."
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:53;89
+msgid "The User has been saved"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:56;92
+msgid "The User could not be saved. Please, try again."
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:67
+msgid "Invalid User"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:73
+msgid "Only the admin can change its profile!"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:107
+msgid "Invalid id for User"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:111
+msgid "User deleted"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:124
+msgid "This login is already used!"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:130
+msgid "This email is already registred!"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:152
+msgid "You will receive an email with a code in order to finish the registration..."
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:154
+msgid "Failed to send the confirmation email. Please contact the administrator at xxx@xxx"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:158
+msgid "The registration failed!"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:165;243
+msgid "The two passwords do not match!"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:182
+msgid "The email and/or registration code is invalid..."
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:187
+msgid "Your registration is confirmed!"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:198
+msgid "You are already logged in!"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:210;223
+msgid "Invalid login or password!"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:215
+msgid "You registration has not been confirmed!"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:228
+msgid "You are logged in as "
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:246
+msgid "Password changed!"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:253
+msgid "Email changed but need to be confirmed!"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:293;301
+msgid "If data provided is correct, you should receive a mail with instructions to change your password..."
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:295
+msgid "Failed to send a email to change your password. Please contact the administrator at xxx@xxx"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:298
+msgid "Failed to change your password. Please contact the administrator at xxx@xxx"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:316
+msgid "Bad identification data!"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:322
+msgid "Your password is changed. Log in now!"
+msgstr ""
+
+#: /plugins/authake/controllers/users_controller.php:337
+msgid "You are logged out!"
+msgstr ""
+
+#: /plugins/authake/views/authake/index.ctp:3
+msgid "Logout"
+msgstr ""
+
+#: /plugins/authake/views/authake/index.ctp:7
+msgid "Authake administration page"
+msgstr ""
+
+#: /plugins/authake/views/authake/index.ctp:11
+#: /plugins/authake/views/groups/index.ctp:63
+#: /plugins/authake/views/groups/view.ctp:78
+#: /plugins/authake/views/rules/index.ctp:99
+#: /plugins/authake/views/users/add.ctp:16
+#: /plugins/authake/views/users/edit.ctp:19
+#: /plugins/authake/views/users/view.ctp:69
+msgid "Manage Users"
+msgstr ""
+
+#: /plugins/authake/views/authake/index.ctp:12
+#: /plugins/authake/views/groups/edit.ctp:16
+#: /plugins/authake/views/groups/view.ctp:14
+#: /plugins/authake/views/rules/index.ctp:100
+#: /plugins/authake/views/users/index.ctp:87
+msgid "Manage Groups"
+msgstr ""
+
+#: /plugins/authake/views/authake/index.ctp:13
+#: /plugins/authake/views/groups/index.ctp:64
+#: /plugins/authake/views/groups/view.ctp:42;134
+#: /plugins/authake/views/rules/add.ctp:18
+#: /plugins/authake/views/rules/edit.ctp:20
+#: /plugins/authake/views/rules/view.ctp:62
+#: /plugins/authake/views/users/index.ctp:88
+#: /plugins/authake/views/users/view.ctp:98;148
+msgid "Manage Rules"
+msgstr ""
+
+#: /plugins/authake/views/authake/index.ctp:17
+#: /plugins/authake/views/users/index.ctp:4
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: /plugins/authake/views/authake/index.ctp:21
+#: /plugins/authake/views/users/index.ctp:7
+msgid "New User"
+msgstr "Nouvel utilisateur"
+
+#: /plugins/authake/views/authake/index.ctp:25
+#: /plugins/authake/views/groups/index.ctp:4
+#: /plugins/authake/views/users/profile.ctp:14
+#: /plugins/authake/views/users/view.ctp:12
+msgid "Groups"
+msgstr ""
+
+#: /plugins/authake/views/authake/index.ctp:29
+#: /plugins/authake/views/groups/index.ctp:7
+msgid "New Group"
+msgstr ""
+
+#: /plugins/authake/views/authake/index.ctp:33
+#: /plugins/authake/views/rules/index.ctp:4
+msgid "Rules"
+msgstr ""
+
+#: /plugins/authake/views/authake/index.ctp:37
+#: /plugins/authake/views/groups/view.ctp:133
+#: /plugins/authake/views/rules/index.ctp:7
+msgid "New Rule"
+msgstr ""
+
+#: /plugins/authake/views/groups/add.ctp:4
+msgid "Add Group"
+msgstr ""
+
+#: /plugins/authake/views/groups/add.ctp:14
+msgid "List Groups"
+msgstr ""
+
+#: /plugins/authake/views/groups/edit.ctp:4
+#: /plugins/authake/views/groups/view.ctp:9
+msgid "Edit Group"
+msgstr ""
+
+#: /plugins/authake/views/groups/edit.ctp:15
+#: /plugins/authake/views/groups/index.ctp:38
+#: /plugins/authake/views/rules/edit.ctp:19
+#: /plugins/authake/views/rules/index.ctp:65
+#: /plugins/authake/views/users/edit.ctp:18
+#: /plugins/authake/views/users/index.ctp:73
+msgid "Delete"
+msgstr ""
+
+#: /plugins/authake/views/groups/edit.ctp:15
+#: /plugins/authake/views/groups/view.ctp:12
+#: /plugins/authake/views/rules/edit.ctp:19
+#: /plugins/authake/views/rules/view.ctp:61
+#: /plugins/authake/views/users/edit.ctp:18
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: /plugins/authake/views/groups/index.ctp:14
+msgid "There are %current% groups on this system."
+msgstr ""
+
+#: /plugins/authake/views/groups/index.ctp:20
+#: /plugins/authake/views/groups/view.ctp:55;97
+#: /plugins/authake/views/rules/index.ctp:17
+#: /plugins/authake/views/users/index.ctp:26
+#: /plugins/authake/views/users/view.ctp:114
+msgid "Actions"
+msgstr ""
+
+#: /plugins/authake/views/groups/index.ctp:36
+#: /plugins/authake/views/groups/view.ctp:69;122
+#: /plugins/authake/views/rules/index.ctp:63
+#: /plugins/authake/views/users/index.ctp:71
+#: /plugins/authake/views/users/view.ctp:139
+msgid "View"
+msgstr ""
+
+#: /plugins/authake/views/groups/index.ctp:37
+#: /plugins/authake/views/rules/index.ctp:64
+#: /plugins/authake/views/users/index.ctp:72
+msgid "Edit"
+msgstr ""
+
+#: /plugins/authake/views/groups/index.ctp:38
+msgid "Are you sure you want to delete the group '%s'?"
+msgstr ""
+
+#: /plugins/authake/views/groups/index.ctp:42
+msgid "(all users, logged or not, are in this group)"
+msgstr ""
+
+#: /plugins/authake/views/groups/index.ctp:54
+#: /plugins/authake/views/users/index.ctp:80
+msgid "previous"
+msgstr ""
+
+#: /plugins/authake/views/groups/index.ctp:56
+#: /plugins/authake/views/users/index.ctp:82
+msgid "next"
+msgstr ""
+
+#: /plugins/authake/views/groups/view.ctp:7
+msgid "View Group"
+msgstr ""
+
+#: /plugins/authake/views/groups/view.ctp:11
+#: /plugins/authake/views/users/view.ctp:66
+msgid "View allowed & denied actions"
+msgstr ""
+
+#: /plugins/authake/views/groups/view.ctp:12
+msgid "Delete Group"
+msgstr ""
+
+#: /plugins/authake/views/groups/view.ctp:21
+#: /plugins/authake/views/users/view.ctp:77
+msgid "Allowed & denied actions"
+msgstr ""
+
+#: /plugins/authake/views/groups/view.ctp:43
+#: /plugins/authake/views/users/view.ctp:99
+msgid "Hide this view"
+msgstr ""
+
+#: /plugins/authake/views/groups/view.ctp:49
+msgid "Users in group %s"
+msgstr ""
+
+#: /plugins/authake/views/groups/view.ctp:53
+#: /plugins/authake/views/users/login.ctp:5;14
+#: /plugins/authake/views/users/profile.ctp:9
+#: /plugins/authake/views/users/view.ctp:7
+msgid "Login"
+msgstr ""
+
+#: /plugins/authake/views/groups/view.ctp:54
+#: /plugins/authake/views/users/view.ctp:24
+msgid "Email"
+msgstr ""
+
+#: /plugins/authake/views/groups/view.ctp:88
+msgid "Rules applied to group %s"
+msgstr ""
+
+#: /plugins/authake/views/groups/view.ctp:90
+#: /plugins/authake/views/users/view.ctp:107
+msgid "Rules herited from guest group are in grey"
+msgstr ""
+
+#: /plugins/authake/views/groups/view.ctp:93
+#: /plugins/authake/views/rules/index.ctp:13
+#: /plugins/authake/views/rules/view.ctp:4
+#: /plugins/authake/views/users/view.ctp:110
+msgid "Description"
+msgstr ""
+
+#: /plugins/authake/views/groups/view.ctp:94
+#: /plugins/authake/views/rules/index.ctp:18
+#: /plugins/authake/views/rules/view.ctp:19
+#: /plugins/authake/views/users/view.ctp:111
+msgid "Order"
+msgstr ""
+
+#: /plugins/authake/views/groups/view.ctp:95
+#: /plugins/authake/views/rules/index.ctp:16
+#: /plugins/authake/views/rules/view.ctp:24
+#: /plugins/authake/views/users/view.ctp:112
+msgid "Action"
+msgstr ""
+
+#: /plugins/authake/views/groups/view.ctp:96
+#: /plugins/authake/views/rules/view.ctp:33
+#: /plugins/authake/views/users/view.ctp:113
+msgid "Permission"
+msgstr ""
+
+#: /plugins/authake/views/rules/add.ctp:4
+msgid "Add Rule"
+msgstr ""
+
+#: /plugins/authake/views/rules/edit.ctp:4
+#: /plugins/authake/views/rules/view.ctp:60
+msgid "Edit Rule"
+msgstr ""
+
+#: /plugins/authake/views/rules/index.ctp:14
+#: /plugins/authake/views/rules/view.ctp:9
+msgid "Group"
+msgstr ""
+
+#: /plugins/authake/views/rules/index.ctp:49
+#: /plugins/authake/views/rules/view.ctp:38
+msgid "Allow"
+msgstr ""
+
+#: /plugins/authake/views/rules/index.ctp:51
+#: /plugins/authake/views/rules/view.ctp:40
+msgid "Deny"
+msgstr ""
+
+#: /plugins/authake/views/rules/index.ctp:65
+msgid "Are you sure you want to delete the rule \"%s\"?"
+msgstr ""
+
+#: /plugins/authake/views/rules/index.ctp:69
+msgid "Move up"
+msgstr ""
+
+#: /plugins/authake/views/rules/index.ctp:77
+msgid "Move down"
+msgstr ""
+
+#: /plugins/authake/views/rules/view.ctp:2
+msgid "Rule"
+msgstr ""
+
+#: /plugins/authake/views/rules/view.ctp:14
+msgid "Everybody, including not logged users"
+msgstr ""
+
+#: /plugins/authake/views/rules/view.ctp:45
+msgid "Forward if denied"
+msgstr ""
+
+#: /plugins/authake/views/rules/view.ctp:52
+msgid "Forward to the login page"
+msgstr ""
+
+#: /plugins/authake/views/rules/view.ctp:61
+msgid "Delete Rule"
+msgstr ""
+
+#: /plugins/authake/views/users/add.ctp:4
+#: /plugins/authake/views/users/register.ctp:4
+msgid "Add User"
+msgstr ""
+
+#: /plugins/authake/views/users/changemypassword.ctp:19
+msgid "Change my password now"
+msgstr ""
+
+#: /plugins/authake/views/users/confirmregister.ctp:4
+msgid "Confirm registration"
+msgstr ""
+
+#: /plugins/authake/views/users/confirmregister.ctp:10
+msgid "Confirm"
+msgstr ""
+
+#: /plugins/authake/views/users/denied.ctp:6
+msgid "Go to homepage"
+msgstr ""
+
+#: /plugins/authake/views/users/edit.ctp:4
+#: /plugins/authake/views/users/view.ctp:64
+msgid "Edit User"
+msgstr ""
+
+#: /plugins/authake/views/users/index.ctp:14
+msgid "There are %current% users on this system. Page %page%/%pages%"
+msgstr ""
+
+#: /plugins/authake/views/users/index.ctp:48
+#: /plugins/authake/views/users/profile.ctp:21
+msgid "Guest"
+msgstr ""
+
+#: /plugins/authake/views/users/index.ctp:57
+msgid "Needed"
+msgstr ""
+
+#: /plugins/authake/views/users/index.ctp:64
+msgid "Requested"
+msgstr ""
+
+#: /plugins/authake/views/users/index.ctp:73
+#: /plugins/authake/views/users/view.ctp:67
+msgid "Are you sure you want to delete user '%s'?"
+msgstr ""
+
+#: /plugins/authake/views/users/login.ctp:9
+msgid "Password"
+msgstr ""
+
+#: /plugins/authake/views/users/login.ctp:17
+msgid "I forgot my password..."
+msgstr ""
+
+#: /plugins/authake/views/users/mypassword.ctp:11
+msgid "Change my password"
+msgstr ""
+
+#: /plugins/authake/views/users/profile.ctp:2
+msgid "Profile of "
+msgstr ""
+
+#: /plugins/authake/views/users/profile.ctp:4
+msgid "Id"
+msgstr ""
+
+#: /plugins/authake/views/users/profile.ctp:26
+msgid "Created"
+msgstr ""
+
+#: /plugins/authake/views/users/profile.ctp:38
+msgid "Modify"
+msgstr ""
+
+#: /plugins/authake/views/users/profile.ctp:45
+msgid "Save"
+msgstr ""
+
+#: /plugins/authake/views/users/register.ctp:12
+msgid "Register"
+msgstr ""
+
+#: /plugins/authake/views/users/view.ctp:29
+msgid "Email check code"
+msgstr ""
+
+#: /plugins/authake/views/users/view.ctp:32
+msgid "No email change requested"
+msgstr ""
+
+#: /plugins/authake/views/users/view.ctp:36
+msgid "Password change code"
+msgstr ""
+
+#: /plugins/authake/views/users/view.ctp:39
+msgid "No password change requested"
+msgstr ""
+
+#: /plugins/authake/views/users/view.ctp:44
+msgid "Created on"
+msgstr ""
+
+#: /plugins/authake/views/users/view.ctp:49
+msgid "Updated on"
+msgstr ""
+
+#: /plugins/authake/views/users/view.ctp:62
+msgid "View User"
+msgstr ""
+
+#: /plugins/authake/views/users/view.ctp:67
+msgid "Delete User"
+msgstr ""
+
+#: /plugins/authake/views/users/view.ctp:105
+msgid "Rules applied to user %s"
+msgstr ""
+
+#: /views/layouts/default.ctp:31
+msgid "CakePHP: the rapid development php framework:"
+msgstr ""
+
+#: /views/layouts/default.ctp:48;62
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: /webroot/test.php:75
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+

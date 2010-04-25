@@ -1,0 +1,31 @@
+.flash_box {
+    margin: -10px 10% 20px 10%;
+    width: auto;
+    left: 0%;
+    padding: 0.5em 2em;
+    position: relative;
+    
+    font-weight: bold;
+    font-size: 120%;
+    color: white;
+    text-align: center;
+
+    -moz-border-radius-bottomleft: 2em;
+    -moz-border-radius-bottomright: 2em;
+}
+
+.flash_info {
+    background-color: #09C;
+}
+
+.flash_success {
+    background-color: #0A0;
+}
+
+.flash_warning {
+    background-color: #F60;
+}
+
+.flash_error {
+    background-color: #900;
+}
